@@ -1,0 +1,46 @@
+/**
+ * Created by jason  on 16/7/14.
+ * action类型
+ */
+
+//主页获取优惠数据action
+export const FETCH_HOME_DICOUNT_LIST = 'FETCH_HOME_DICOUNT_LIST';
+export const RECEIVE_HOME_DICOUNT_LIST = 'RECEIVE_HOME_DICOUNT_LIST';
+
+
+
+
+//主页actions
+export const FETCH_HOME_LIST = 'FETCH_HOME_LIST';
+export const RECEIVE_HOME_LIST = 'RECEIVE_HOME_LIST';
+// //详情页actions
+// export const FETCH_DETIAL_DATE = 'FETCH_DETIAL_DATE';
+// export const RECEIVE_DETIAL_DATE = 'RECEIVE_DETIAL_DATE';
+
+
+//分类页actions
+// export const FETCH_CLASS_LIST = 'FETCH_CLASS_LIST';
+// export const RECEIVE_CLASS_LIST = 'RECEIVE_CLASS_LIST';
+
+//分类详细页actions
+export const FETCH_CLASSDITAL_LIST = 'FETCH_CLASSDITAL_LIST';
+export const RECEIVE_CLASSDITAL_LIST = 'RECEIVE_CLASSDITAL_LIST';
+export const RESET_CLASSDITAL_STATE = 'RESET_CLASSDITAL_STATE';
+
+
+
+
+//房屋贷款
+export const FETCH_HOUSINGLOAN_LIST = 'FETCH_HOUSINGLOAN_LIST';
+export const RECEIVE_HOUSINGLOAN_LIST = 'RECEIVE_HOUSINGLOAN_LIST';
+export const RESET_HOUSINGLOAN_STATE = 'RESET_HOUSINGLOAN_STATE';
+
+// 新闻
+export const REQUEST_ARTICLE_LIST = 'REQUEST_ARTICLE_LIST';
+export const FETCH_ARTICLE_LIST = 'FETCH_ARTICLE_LIST';
+export const RECEIVE_ARTICLE_LIST = 'RECEIVE_ARTICLE_LIST';
+
+// 新闻 分类type
+export const REQUEST_TYPE_LIST = 'REQUEST_TYPE_LIST';
+export const FETCH_TYPE_LIST = 'FETCH_TYPE_LIST';
+export const RECEIVE_TYPE_LIST = 'RECEIVE_TYPE_LIST';
